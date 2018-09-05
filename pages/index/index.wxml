@@ -6,6 +6,6 @@
         data-index="{{index}}" 
         bindtap="reverseCard">
         <view class="front">{{item.name}}</view>
-        <view class="back">反面</view>
+        <view class="back">{{item.back}}</view>
   </view>
 </view>
