@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="ninelayout {{sel==index?'reverseCard':''}}" 
+        wx:for="{{cards}}"
+        wx:key="index" 
+        wx:for-item="item" 
+        data-index="{{index}}" 
+        bindtap="reverseCard">
+        <view class="front">{{item.name}}</view>
+        <view class="back">反面</view>
+  </view>
+</view>
